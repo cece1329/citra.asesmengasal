@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".cafe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SiBoba Cafe"
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Nama Customer"
+            android:inputType="textPersonName"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/image_square_rounded"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESSERT MANIS"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/redvelvet"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="Red Velvet Cake"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Red Velvet"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 35.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus1"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus1"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/brownies"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="Brownies Fudgy"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chocolate Fudgy Brownies"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 28.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus2"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+
+                            <Button
+                                android:id="@+id/btnPlus2"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/strawberrycake"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="Red Velvet Cake"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="StrawBerry ShortCake"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 30.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus3"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus3"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/cheesecake"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="CheeseCake"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CheeseCake"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 36.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus4"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus4"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/mochidonut"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="mochidonut"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mochi Donut"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 25.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus5"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus5"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MINUMAN"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/milktea"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="Milk Tea Boba"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MilkTea Boba"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 20.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus6"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus6"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/strawberryboba"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="Strawberry Milk Boba"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Strawberry Milk"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 25.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus7"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus7"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/coklat"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="Chocolate Boba"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chocolate Boba"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 20.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus8"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus8"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/matcha"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="MatchaLatte Boba"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MatchaLatte Boba"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 25.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus9"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus9"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="4dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/brownsugar"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/image_square_rounded"
+                            android:contentDescription="BrownSugar Boba"
+                            android:layout_marginBottom="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BrownSugar Boba"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 25.000"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="8dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnMinus10"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="-"
+                                android:textSize="16sp"
+                                android:backgroundTint="#CCCCCC"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                            <TextView
+                                android:id="@+id/tvQuantity10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:layout_gravity="center_vertical" />
+                            <Button
+                                android:id="@+id/btnPlus10"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="+"
+                                android:textSize="16sp"
+                                android:backgroundTint="@color/pink"
+                                android:textColor="@color/white"
+                                app:cornerRadius="6dp"
+                                android:padding="0dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <Button
+            android:id="@+id/btnPesan"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="PESAN SEKARANG"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

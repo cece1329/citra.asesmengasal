@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HasilForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- Title Apple Style -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil Form"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:letterSpacing="0.03"
+            android:padding="14dp" />
+
+        <!-- Card Container -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="@color/pink"
+            app:cardCornerRadius="16dp"
+            android:padding="22dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NamA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Lengkap ="
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:paddingVertical="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/pink" />
+
+                <TextView
+                    android:id="@+id/Nomerr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Handphone ="
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:paddingVertical="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/pink" />
+
+                <TextView
+                    android:id="@+id/etAlamatt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat ="
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:paddingVertical="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/pink" />
+
+                <TextView
+                    android:id="@+id/tvKelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kelamin ="
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:paddingVertical="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/pink" />
+
+                <TextView
+                    android:id="@+id/tvAgama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Agama ="
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:paddingVertical="8dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/pink" />
+
+                <TextView
+                    android:id="@+id/tvHobi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hobi ="
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:paddingVertical="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

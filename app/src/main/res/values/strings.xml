@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SiBoba</string>
+
+    <string-array name="agama">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+        <item>Konghucu</item>
+    </string-array>
+
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Reamur</item>
+
+
+</string-array>
+
+    <string name="hint_input">Masukkan Suhu di sini...</string>
+    <string name="button_convert">Konversi! </string>
+    <string name="label_from">Dari Suhu:</string>
+    <string name="label_to">Ke Suhu:</string>
+    <string name="label_result">Hasil Konversi:</string>
+</resources>

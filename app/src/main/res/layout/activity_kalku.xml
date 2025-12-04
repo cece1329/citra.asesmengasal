@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="64sp"
+        android:textColor="@color/pink"
+        android:gravity="end"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:maxLines="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnC"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/pink"
+            android:text="C"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDel"
+            android:text="DEL"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPercent"
+            android:text="%"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDivide"
+            android:text="÷"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn7"
+            android:text="7"
+            android:textColor="@color/pink"
+            android:backgroundTint="@color/white"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn8"
+            android:text="8"
+            android:textColor="@color/pink"
+            android:backgroundTint="@color/white"
+            android:textSize="28sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn9"
+            android:text="9"
+            android:textColor="@color/pink"
+            android:backgroundTint="@color/white"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMultiply"
+            android:text="×"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn4"
+            android:text="4"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/pink"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn5"
+            android:text="5"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/pink"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn6"
+            android:text="6"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/pink"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMinus"
+            android:text="−"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
+            android:text="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/pink"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
+            android:text="2"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/pink"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3"
+            android:text="3"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/pink"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlus"
+            android:text="+"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn0"
+            android:text="0"
+            android:textColor="@color/pink"
+            android:backgroundTint="@color/white"
+            android:textSize="24sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDot"
+            android:text="."
+            android:textColor="@color/pink"
+            android:backgroundTint="@color/white"
+            android:textSize="26sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEqual"
+            android:text="="
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"/>
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

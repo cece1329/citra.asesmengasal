@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Style dasar semua tombol -->
+    <style name="CalcBtn_Base" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <!-- Style tombol normal (angka) -->
+    <style name="CalcBtn_Normal" parent="CalcBtn_Base">
+        <item name="android:backgroundTint">#FF6F9E</item> <!-- Pink -->
+    </style>
+
+    <!-- Style tombol operasi (+ - × ÷) -->
+    <style name="CalcBtn_Operator" parent="CalcBtn_Base">
+        <item name="android:backgroundTint">#FFB6D9</item> <!-- Pink muda -->
+    </style>
+
+    <!-- Style tombol khusus (C, DEL) -->
+    <style name="CalcBtn_Special" parent="CalcBtn_Base">
+        <item name="android:backgroundTint">#FF4F7A</item> <!-- Pink tua -->
+    </style>
+
+</resources>
