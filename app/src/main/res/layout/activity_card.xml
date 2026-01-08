@@ -86,7 +86,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Profile"
+                                android:text="@string/profile_home"
                                 android:textSize="13sp"
                                 android:textColor="@color/black" />
                         </LinearLayout>
@@ -119,7 +119,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Food"
+                                android:text="@string/food_home"
                                 android:textSize="13sp"
                                 android:textColor="@color/black" />
                         </LinearLayout>
@@ -187,7 +187,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Kalkulator"
+                                android:text="@string/calculator_home"
                                 android:textSize="11sp"
                                 android:textColor="@color/black" />
                         </LinearLayout>
@@ -220,7 +220,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Konversi Suhu"
+                                android:text="@string/suhu_home"
                                 android:textSize="13sp"
                                 android:textColor="@color/black" />
                         </LinearLayout>
@@ -288,7 +288,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Form"
+                                android:text="@string/form_home"
                                 android:textSize="13sp"
                                 android:textColor="@color/black" />
                         </LinearLayout>
@@ -321,7 +321,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Keluar"
+                                android:text="@string/exit_home"
                                 android:textSize="13sp"
                                 android:textColor="@color/black" />
                         </LinearLayout>

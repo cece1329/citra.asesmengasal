@@ -18,10 +18,65 @@
 
 
 </string-array>
-
-    <string name="hint_input">Masukkan Suhu di sini...</string>
+    <string name="judul_konversi">Konversi Suhu</string>
+    <string name="hint_input">masukkan suhu disini</string>
     <string name="button_convert">Konversi! </string>
     <string name="label_from">Dari Suhu:</string>
     <string name="label_to">Ke Suhu:</string>
     <string name="label_result">Hasil Konversi:</string>
+    <string name="profile_home">Profil</string>
+    <string name="food_home">Makanan</string>
+    <string name="calculator_home">Kalkulator</string>
+    <string name="suhu_home">Konversi Suhu</string>
+    <string name="form_home">Formulir</string>
+    <string name="exit_home">Keluar</string>
+    <string name="Cust_cafe">Nama Customer</string>
+    <string name="Dessert_cafe">Makanan Penutup Manis</string>
+    <string name="Redvelvet_cafe">Kue Beludru Merah</string>
+    <string name="Chococake_cafe">Brownies Coklat Lembut</string>
+    <string name="StrawberryCake_cafe">Kue Stoberi</string>
+    <string name="CheeseCake_Cafe">Kue Keju</string>
+    <string name="Donut_Cafe">Donat Mochi</string>
+    <string name="Milktea_cafe">Boba Teh Susu</string>
+    <string name="StrawberryBoba_cafe">Boba Susu Stoberi</string>
+    <string name="ChocoBoba_cafe">Boba susu Coklat</string>
+    <string name="MatchaBoba_cafe">Matcha Susu Boba</string>
+    <string name="BrownsugarBoba_cafe">Boba Gula Merah</string>
+    <string name="drink_cafe">Minuman</string>
+    <string name="judul_relatif">Formulir Pendaftaran</string>
+    <string name="hint1_relatif">Masukkan Nama Lengkap</string>
+    <string name="hint2_relatif">Masukkan Nomor Telepon</string>
+    <string name="hint3_relatif">Masukkan Alamat</string>
+    <string name="spinner_relatif">Agama</string>
+    <string name="jeniskelamin_relatif">Jenis Kelamin</string>
+    <string name="male_relatif">Laki-Laki</string>
+    <string name="female_relatif">Perempuan</string>
+    <string name="hobi_relatif">Hobi</string>
+    <string name="read_relatif">Membaca</string>
+    <string name="eat_relatif">Makan</string>
+    <string name="sleep_relatif">Tidur</string>
+    <string name="sport_relatif">Olahraga</string>
+    <string name="save_relatif">Simpan</string>
+    <string name="judul_hasil">Hasil Form</string>
+    <string name="satu_hasil">Nama Lengkap =</string>
+    <string name="dua_hasil">Nomor Telepon =</string>
+    <string name="tiga_hasil">Alamat =</string>
+    <string name="empat_hasil">Jenis Kelamin =</string>
+    <string name="lima_hasil">Agama</string>
+    <string name="enam_hasil">Hobi</string>
+    <string name="sekolah_profil">SISWA SMK NEGERI 6 SURAKARTA</string>
+    <string name="satu_profil">Nama Pengguna</string>
+    <string name="tiga_profil">Nomor Telepon</string>
+    <string name="empat_profil">Tanggal Lahir</string>
+    <string name="lima_profil">Alamat</string>
+    <string name="alamat_nota">Jl. CitraImut No. 123, Solo</string>
+    <string name="empat_nota">Nama</string>
+    <string name="lima_nota">Nomor Nota</string>
+    <string name="enam_nota">Tanggal</string>
+    <string name="tujuh_nota">Detail Pesanan</string>
+    <string name="thanks_nota">Terimakasih atas kunjungan Anda!</string>
+    <string name="selamat_nota">Selamat Menikmati</string>
+    <string name="bagikan_nota">BAGIKAN NOTA</string>
+    <string name="back_nota">KEMBALI KE MENU</string>
+
 </resources>

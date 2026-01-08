@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SISWA SMK N 6 SURAKARTA"
+            android:text="@string/sekolah_profil"
             android:textSize="15sp"
             android:textColor="#8A8A8A"
             android:layout_gravity="center"
@@ -73,7 +73,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Username"
+                        android:text="@string/satu_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 
@@ -127,7 +127,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Phone"
+                        android:text="@string/tiga_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 
@@ -154,7 +154,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Date of Birth"
+                        android:text="@string/empat_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 
@@ -180,7 +180,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Address"
+                        android:text="@string/lima_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 

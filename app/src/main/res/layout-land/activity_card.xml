@@ -12,25 +12,22 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Logo -->
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/header"
             android:layout_gravity="center" />
 
-        <!-- Nama Aplikasi -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SiBoba"
+            android:text="@string/app_name"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_gravity="center"
             android:layout_marginTop="8dp" />
 
-        <!-- Menu Utama -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,7 +43,6 @@
                 android:padding="12dp"
                 android:gravity="center">
 
-                <!-- Profile -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/CardProfil"
                     android:layout_width="0dp"
@@ -72,13 +68,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Profile"
+                            android:text="@string/profile_home"
                             android:textSize="13sp"
                             android:textColor="@color/black"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <!-- Food -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/CardFood"
                     android:layout_width="0dp"
@@ -104,13 +99,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Food"
+                            android:text="@string/food_home"
                             android:textSize="13sp"
                             android:textColor="@color/black"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <!-- Kalkulator -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/CardCalkulator"
                     android:layout_width="0dp"
@@ -136,7 +130,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Kalkulator"
+                            android:text="@string/calculator_home"
                             android:textSize="11sp"
                             android:textColor="@color/black"/>
                     </LinearLayout>
@@ -145,7 +139,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Menu Lain -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -161,7 +154,6 @@
                 android:padding="12dp"
                 android:gravity="center">
 
-                <!-- Konversi Suhu -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/CardKonversi"
                     android:layout_width="0dp"
@@ -187,13 +179,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Konversi Suhu"
+                            android:text="@string/suhu_home"
                             android:textSize="13sp"
                             android:textColor="@color/black"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <!-- Form -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/CardForm"
                     android:layout_width="0dp"
@@ -219,13 +210,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Form"
+                            android:text="@string/form_home"
                             android:textSize="13sp"
                             android:textColor="@color/black"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <!-- Keluar -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/CardExit"
                     android:layout_width="0dp"
@@ -251,7 +241,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Keluar"
+                            android:text="@string/exit_home"
                             android:textSize="13sp"
                             android:textColor="@color/black"/>
                     </LinearLayout>

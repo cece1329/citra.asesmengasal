@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SiBoba</string>
+
+    <string name="judul_konversi">Temperature Conversion</string>
+    <string name="hint_input">input the temperature here</string>
+    <string name="button_convert">Convert! </string>
+    <string name="label_from">From Temperature:</string>
+    <string name="label_to">To Temperature:</string>
+    <string name="label_result">Results:</string>
+    <string name="profile_home">Profile</string>
+    <string name="food_home">Food</string>
+    <string name="calculator_home">Calculator</string>
+    <string name="suhu_home">Temperature Conversion</string>
+    <string name="form_home">Form</string>
+    <string name="exit_home">Exit</string>
+    <string name="Cust_cafe">Customer Name</string>
+    <string name="Dessert_cafe">Sweet Dessert</string>
+    <string name="Redvelvet_cafe">Redvelvet Cake</string>
+    <string name="Chococake_cafe">Chocolate Fudgy Brownies</string>
+    <string name="StrawberryCake_cafe">Strawberry ShortCake</string>
+    <string name="CheeseCake_Cafe">CheeseCake</string>
+    <string name="Donut_Cafe">Mochi Donut</string>
+    <string name="Milktea_cafe">Milktea Boba</string>
+    <string name="StrawberryBoba_cafe">Strawberry Milk Boba</string>
+    <string name="ChocoBoba_cafe">Chocolate Milk Boba</string>\
+    <string name="MatchaBoba_cafe">Matcha Milk Boba</string>
+    <string name="BrownsugarBoba_cafe">BrownSugar Boba</string>
+    <string name="drink_cafe">Drink</string>
+    <string name="judul_relatif">Registration Form</string>
+    <string name="hint1_relatif">Enter Full Name</string>
+    <string name="hint2_relatif">Enter Phone Number</string>
+    <string name="hint3_relatif">Enter Address</string>
+    <string name="spinner_relatif">Religion</string>
+    <string name="jeniskelamin_relatif">Gender</string>
+    <string name="male_relatif">Male</string>
+    <string name="female_relatif">Female</string>
+    <string name="hobi_relatif">Hobby</string>
+    <string name="read_relatif">Read</string>
+    <string name="eat_relatif">Eat</string>
+    <string name="sleep_relatif">Sleep</string>
+    <string name="sport_relatif">Sport</string>
+    <string name="save_relatif">Save</string>
+    <string name="judul_hasil">Form Results</string>
+    <string name="satu_hasil">Full Name =</string>
+    <string name="dua_hasil">Phone Number =</string>
+    <string name="tiga_hasil">Address</string>
+    <string name="empat_hasil">Gender =</string>
+    <string name="lima_hasil">Religion</string>
+    <string name="enam_hasil">Hobby</string>
+    <string name="sekolah_profil">STUDENTS OF SMK N 6 SURAKARTA</string>
+    <string name="satu_profil">Username</string>
+    <string name="tiga_profil">Phone Number</string>
+    <string name="empat_profil">Date Of Birth</string>
+    <string name="lima_profil">Address</string>
+    <string name="alamat_nota">123 CitraImut Street, Solo</string>
+    <string name="empat_nota">Name</string>
+    <string name="lima_nota">Nota Number</string>
+    <string name="enam_nota">Date</string>
+    <string name="tujuh_nota">Order Details</string>
+    <string name="thanks_nota">Thank You for your visit</string>
+    <string name="selamat_nota">Enjoy!</string>
+    <string name="bagikan_nota">SHARE NOTES</string>
+    <string name="back_nota">BACK TO MENU</string>
+
+
+    <string-array name="agama">
+        <item>Islam</item>
+        <item>Christian</item>
+        <item>Catholic</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+        <item>Confucian</item>
+    </string-array>
+</resources>

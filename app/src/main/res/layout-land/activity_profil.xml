@@ -12,7 +12,6 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <!-- PROFILE IMAGE -->
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
             android:layout_width="120dp"
@@ -22,7 +21,6 @@
             app:civ_border_width="3dp"
             app:civ_border_color="@color/black" />
 
-        <!-- NAME -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,17 +31,15 @@
             android:layout_marginTop="18dp"
             android:layout_gravity="center" />
 
-        <!-- ROLE -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SISWA SMK N 6 SURAKARTA"
+            android:text="@string/sekolah_profil"
             android:textSize="15sp"
             android:textColor="#8A8A8A"
             android:layout_gravity="center"
             android:layout_marginTop="4dp" />
 
-        <!-- MAIN CARD -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,21 +55,18 @@
                 android:background="@color/pink"
                 android:padding="20dp">
 
-                <!-- PASTEL BACKGROUND WRAPPER -->
-                <!-- Username -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="14dp"
                     android:orientation="vertical"
                     android:background="@color/white"
-                    android:layout_marginBottom="12dp"
-                    android:clipToPadding="true">
+                    android:layout_marginBottom="12dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Username"
+                        android:text="@string/satu_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 
@@ -85,10 +78,8 @@
                         android:textSize="17sp"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
-
                 </LinearLayout>
 
-                <!-- Email -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -112,10 +103,8 @@
                         android:textSize="17sp"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
-
                 </LinearLayout>
 
-                <!-- Phone -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -127,7 +116,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Phone"
+                        android:text="@string/tiga_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 
@@ -139,10 +128,8 @@
                         android:textSize="17sp"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
-
                 </LinearLayout>
 
-                <!-- Birthday -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -154,7 +141,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Date of Birth"
+                        android:text="@string/empat_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 
@@ -166,10 +153,8 @@
                         android:textSize="17sp"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
-
                 </LinearLayout>
 
-                <!-- Address -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -180,7 +165,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Address"
+                        android:text="@string/lima_profil"
                         android:textSize="14sp"
                         android:textColor="@color/gray" />
 
@@ -192,14 +177,9 @@
                         android:textSize="17sp"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
-
                 </LinearLayout>
 
-
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
-
     </LinearLayout>
-
 </ScrollView>
